@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="987.0" styleClass="background" stylesheets="@Styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ch.makery.calculator.view.RootController">
+   <children>
+      <TabPane layoutY="105.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="545.0" prefWidth="987.0" styleClass="display" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Calculator">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="427.0" prefWidth="897.0" styleClass="display">
+                     <children>
+                        <Text layoutX="87.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For operations that require 2 inputs, enter the first input followed by the operation you wish to perfrom followed by the second input" wrappingWidth="899.7265625" />
+                        <Text layoutX="90.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You can perform any operations from the given buttons" />
+                        <Text layoutX="348.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to use the Calculator? ">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="117.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Example you want to add 566 to 12 : click buttons 5, 6, 6 followed by button &quot;+&quot; followed by buttons: 1, 2 to get your output" wrappingWidth="839.7265625" />
+                        <Text layoutX="90.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" text="For operations that require 1 input, enter the first input followed by the operation you wish to perform" wrappingWidth="705.7265625" />
+                        <Text layoutX="117.0" layoutY="302.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Example you want to log the value 52 : click buttons 5, 2 followed by log to get your output" wrappingWidth="643.7265625" />
+                        <Text layoutX="90.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="All the calculations made will stored and showed on your right under Previous Calculations" wrappingWidth="643.7265625" />
+                        <Text layoutX="90.0" layoutY="402.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You are also allowed to navigate to other uses of calcuations using the &quot; Unit Converter&quot; and &quot;Minigame&quot; buttons" wrappingWidth="788.7265625" />
+                        <Circle layoutX="75.0" layoutY="121.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="75.0" layoutY="169.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="75.0" layoutY="261.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="75.0" layoutY="355.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="75.0" layoutY="396.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="106.0" layoutY="202.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="102.0" layoutY="296.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Unit Converter">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="324.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to use the Unit Converter? ">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="89.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="There are 3 possible conversions to be performed " wrappingWidth="702.10205078125" />
+                        <Circle layoutX="72.0" layoutY="126.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Text layoutX="109.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Celsius to Fehrenheit" wrappingWidth="702.10205078125" />
+                        <Text layoutX="109.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Litres to Millilitres" wrappingWidth="702.10205078125" />
+                        <Text layoutX="109.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Meters to kilometers" wrappingWidth="702.10205078125" />
+                        <Text layoutX="89.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the value you want to convert and click the &quot;convert &quot; button to convert the value, your desired output will be shown" wrappingWidth="834.10205078125" />
+                        <Text layoutX="103.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Note : You are only allowed to enter numbers " wrappingWidth="834.10205078125" />
+                        <Circle layoutX="99.0" layoutY="160.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="99.0" layoutY="189.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="99.0" layoutY="217.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="76.0" layoutY="275.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children></AnchorPane>
+            </content>
+          </Tab>
+            <Tab text="Mini Game">
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="347.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to play the Minigame?">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="98.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The concept of this game is to guess a randomly generated 5 digit number" />
+                        <Text layoutX="98.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you guess lower than the random number, you will be notified with a prompt" />
+                        <Text layoutX="98.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="If you guess higher than the random number, you will be notified with a prompt" />
+                        <Text layoutX="98.0" layoutY="259.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You win the game by guessing the correct number" />
+                        <Text layoutX="98.0" layoutY="301.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tips to win the game faster" />
+                        <Text layoutX="111.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start by guessing the number 50000, this number is the middle number and go higher or lower based on the prompts" />
+                        <Circle layoutX="85.0" layoutY="140.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="85.0" layoutY="181.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="85.0" layoutY="220.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="85.0" layoutY="254.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="85.0" layoutY="296.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                        <Circle layoutX="98.0" layoutY="334.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" />
+                     </children></AnchorPane>
+               </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Text fill="WHITE" layoutX="319.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Advanced Calculator" underline="true">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

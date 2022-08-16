@@ -1,0 +1,74 @@
+.background {
+    -fx-background-color: rgb(90, 87, 87);     
+}
+
+.button {  
+    
+}
+
+.button2 {
+    -fx-background-color: #ff8c00;
+    -fx-background-radius: 50%;
+}
+
+.button3 {
+    -fx-background-color: #f3f3f3;
+    -fx-background-radius: 40%;
+}
+
+.button4 {
+    -fx-background-color: #fec761;
+    -fx-background-radius: 40%;
+}
+
+.button5 {
+    -fx-background-color: #f3e16f;
+    -fx-background-radius: 40%;
+}
+
+.button6 {
+    -fx-background-color: #ffdc9a;
+    -fx-background-radius: 40%;
+}
+
+.button7 {
+    -fx-background-color: #ffffff;
+}
+
+.button:hover {
+    -fx-background-color: #ae8bbb;
+}
+
+.button2:hover {
+    -fx-background-color: #fadf9a;
+}
+
+.button3:hover {
+    -fx-background-color: #f4cd69;
+}
+
+.button4:hover {
+    -fx-background-color: #f4cd69;
+}
+
+.button5:hover {
+    -fx-background-color: #f4cd69;
+}
+
+.button6:hover {
+    -fx-background-color: #f4cd69;
+}
+
+.button7:hover {
+    -fx-background-color: #999999;
+}
+
+.display {  
+    -fx-background-color: rgb(213, 211, 211);   
+}
+
+.guessbutton {
+    -fx-background-color: #f5ba83;
+}
+
+
